@@ -14604,3 +14604,9 @@ body.white-version {
   color: var(--color-white) !important; }
 
 /*# sourceMappingURL=../maps/style.css.map */
+
+.resume-single-list .inner .description img {
+  max-width: 70px;
+  max-height: 70px;
+  padding: 10px;
+}
