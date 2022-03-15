@@ -20143,3 +20143,10 @@ body.white-version {
 .user-info-header .user-info-span{
   font-size: 14px;
 }
+
+@media only screen and (max-width: 1199px) {
+  .user-info-footer .user-info-image-grid{
+    max-height: 70px;
+    max-height: 70px;
+  }
+}
