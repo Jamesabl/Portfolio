@@ -20139,3 +20139,7 @@ body.white-version {
   height: 800px;
   width: 600px;
 }
+
+.user-info-header .user-info-span{
+  font-size: 14px;
+}
