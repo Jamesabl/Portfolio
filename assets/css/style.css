@@ -20149,4 +20149,10 @@ body.white-version {
     max-height: 70px;
     max-height: 70px;
   }
+  .content .maintitle{
+    text-align: center;
+  }
+  .row .content {
+    text-align: center;
+  }
 }
