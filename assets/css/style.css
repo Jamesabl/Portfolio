@@ -19227,7 +19227,7 @@ body.white-version {
   .date-of-time
   span {
   box-shadow: none;
-  background: #fe024e;
+  background: var(--color-primary);
   color: var(--color-white);
 }
 .white-version
@@ -20155,4 +20155,15 @@ body.white-version {
   .row .content {
     text-align: center;
   }
+}
+
+.resume-single-list li {
+  font-size:14px;
+  padding: 0;
+}
+
+.resume-single-list:hover
+  li {
+  color: white;
+  transition-delay: 100ms;
 }
