@@ -20157,7 +20157,12 @@ body.white-version {
   }
 }
 
-.resume-single-list li {
+.resume-single-list li{
+  font-size:14px;
+  padding: 0;
+}
+
+.resume-single-list .description{
   font-size:14px;
   padding: 0;
 }
