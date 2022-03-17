@@ -92,7 +92,7 @@
   --s-bold: 700;
   --s-extra-bold: 800;
   --s-black: 900;
-  --transition: 0.4s;
+  --transition: 0.3s;
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Montserrat", sans-serif;
   --font-size-b1: 18px;
@@ -18191,6 +18191,7 @@ body.white-version {
   background: var(--gradient-box-w);
   box-shadow: var(--shadow-white-3);
 }
+/*
 .white-version
   .rn-content-wrapper
   .tab-content-wrapper
@@ -18198,7 +18199,7 @@ body.white-version {
   .personal-experience-inner
   .resume-single-list::before {
   background: var(--gradient-red-hover);
-}
+}*/
 .white-version
   .rn-content-wrapper
   .tab-content-wrapper
@@ -19144,6 +19145,7 @@ body.white-version {
   p {
   color: var(--color-body-white);
 }
+/*
 .white-version
   .rn-resume-area
   .personal-experience-inner
@@ -19151,6 +19153,7 @@ body.white-version {
   .resume-single-list::before {
   background: var(--gradient-red-hover);
 }
+*/
 .white-version
   .rn-resume-area
   .personal-experience-inner
@@ -19190,6 +19193,7 @@ body.white-version {
   background: var(--color-white);
   box-shadow: var(--shadow-white-3);
 }
+/*
 .white-version
   .rn-resume-area
   .personal-experience-inner
@@ -19247,7 +19251,12 @@ body.white-version {
   p {
   color: var(--color-white);
 }
-
+.resume-single-list:hover
+  li {
+  color: white;
+  transition-delay: 100ms;
+}
+*/
 .white-version .rn-resume-area .progress-charts .progress {
   background: #dce1e4;
   box-shadow: none;
@@ -19401,6 +19410,7 @@ body.white-version {
 .white-version .rn-client-area .tab-navigation-button .nav-item .nav-link {
   color: var(--color-body-white);
 }
+
 .white-version
   .rn-client-area
   .tab-navigation-button
@@ -20110,7 +20120,7 @@ body.white-version {
 
 .user-info-image-grid {
   max-height: 70px;
-  max-height: 70px;
+  max-width: 70px;
   padding: 5px;
 }
 
@@ -20160,6 +20170,7 @@ body.white-version {
 .resume-single-list li{
   font-size:14px;
   padding: 0;
+  list-style: none
 }
 
 .resume-single-list .description{
@@ -20167,8 +20178,7 @@ body.white-version {
   padding: 0;
 }
 
-.resume-single-list:hover
-  li {
-  color: white;
-  transition-delay: 100ms;
+.inner ul {
+  margin: 0px;
+  padding: 0px;
 }
