@@ -20183,3 +20183,11 @@ body.white-version {
   margin: 0px;
   padding: 0px;
 }
+
+.background-image-area .thumbnail-image{
+  max-height: 700px;
+  max-width: 525px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
