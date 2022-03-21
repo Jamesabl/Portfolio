@@ -20171,12 +20171,12 @@ body.white-version {
   .row .content {
     text-align: center;
   }
-
+/*
   .social-share-style-1{
     position: absolute;
     bottom: 15px;
   }
-
+*/
   .social-share-style-1 .title, .user-info-bottom .title{
     font-size: 12px;
     color: var(--color-body-white);
