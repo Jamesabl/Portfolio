@@ -10682,7 +10682,7 @@ body.template-color-1 {
   }
 }
 .sticky .header-wrapper .logo img {
-  max-width: calc(100% - 10%);
+  max-width: calc(80% - 10%);
 }
 
 .logo a {
@@ -10690,6 +10690,9 @@ body.template-color-1 {
 }
 .logo a img {
   transition: 0.3s;
+}
+.logo img {
+  max-height: 104px;
 }
 @media only screen and (max-width: 767px) {
   .logo a img {
