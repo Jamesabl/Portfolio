@@ -528,7 +528,7 @@ ol ul {
 }
 
 .rn-section-gap {
-  padding: 100px 0;
+  padding: 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rn-section-gap {
@@ -17021,11 +17021,13 @@ div#featured-project-carousel {
   height: 100%;
   transition: 0.5s all ease-in-out;
   display: inline-block;
+  height: 429px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .rn-portfolio,
   .rn-blog {
     padding: 30px;
+    height: auto;
   }
 }
 @media only screen and (max-width: 479px) {
@@ -17042,7 +17044,8 @@ div#featured-project-carousel {
 }
 .rn-portfolio .inner .thumbnail a img,
 .rn-blog .inner .thumbnail a img {
-  width: 100%;
+  width: 291px;
+  height: 218px;
   transition: var(--transition);
   height: auto;
   object-fit: cover;
