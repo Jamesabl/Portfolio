@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <link href="assets/css/lightbox.css" rel="stylesheet" />
     <title>
       Jake Nadulek || Software Engineer
     </title>
@@ -178,16 +179,12 @@
                     <div class="col-xl-12 col-lg-12 col-12">
                       <div class="user-info-top">
                         <div class="user-info-header">
-                          <div class="user">
-                            <i data-feather="user"></i>
-                          </div>
+                          <img src="assets/images/slider/jake2.png" alt="Personal Portfolio"/>
+                          <br><br>
                           <h2 class="title">Hi, I’m <span>Jake</span></h2>
                           <p class="disc">
-                            <br>I'm a Full-Stack Software Engineer located in Delray Beach,
-                            Flordia.<br><br>
-                            Let me help you build your next website today!
-                          </p>
-                          <span class="user-info-span">HTML/CSS/JS</span>
+                            I'm an IT Professional experienced in Business Data Analytics and Software Engineering located in Delray Beach, Flordia. I am well versed in HTML/CSS/JS, Python, Power BI, SQL, and Microsoft Excel.</p>
+                          <!--
                           <div class="user-info-footer">
                             <img
                               class="user-info-image-grid"
@@ -206,15 +203,15 @@
                             />
                             <img
                               class="user-info-image-grid"
-                              src="assets/images/logo/nodejs.png"
+                              src="assets/images/logo/powerbi.png"
                               alt="nodejs"
                             />
                             <img
                             class="user-info-image-grid"
-                            src="assets/images/logo/react.png"
+                            src="assets/images/logo/excel.png"
                             alt="reactjs"
                             />
-                          </div>
+                          </div>-->
                         </div>
                       </div>
                     </div>
@@ -233,12 +230,82 @@
 
               <div class="order-1 order-xl-2 col-lg-12 col-xl-7">
                 <div class="background-image-area">
-                  <div class="thumbnail-image">
-                    <img
-                      src="assets/images/slider/jake2.png"
-                      alt="Personal Portfolio"
-                    />
-                  </div>
+
+                    <h4 class="title">Things I've Made</h4>
+                    <div class="item">
+                      <div class="item1left">
+                        <span class="spanleft">Florida Ocean Water Temps Animator</span>
+                        <br>
+                        <span class="spanleftBody">Animation of Florida's ocean water temperatures. Built by webscraping an image off of Surfline daily and then stitiching each image together to make a GIF, all through Python.<br>
+                          The first file is the webscraper, which uses the PIL and imageio libraries, and the second file turns the folder of images into a GIf using the moviepy.editor and PIL libraries.</span>
+                        <br>
+                        <span id="spandownload" class="spandownload">Download the files by clicking them here:</span>
+                        <a href="#" target="_blank" alt="Webscraper"><img class="downloadfile" alt="Webscraper" src="assets/images/pythonfile.png"/></a>
+                        <a href="#" target="_blank" alt="GIF Animator"><img class="downloadfile" alt="GIF Animator" src="assets/images/pythonfile.png"/></a>
+                      </div>
+                      <div id="item1right" class="item1right">
+                        <span class="spanrightBI">Python</span>
+                        <a href="assets/FLSLWT.gif" data-lightbox="indexsidebar"><img loading=“lazy”  src="assets/FLSLWT.gif"  class="snap" alt="Python" /></a>
+                      </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="item">
+                      <div class="item1left">
+                        <span class="spanleft">PNG to JPG to Webp Converter</span>
+                        <br>
+                        <span class="spanleftBody">This program takes any image found in a folder that has the ending file types: JPEG, JPG, and PNG and converts them all to the web-friendly Webp format. The program can be easily adjusted to convert any of the file types to one another by changing the first function to what file type they want and then alter the second function to select which file types to convert. When building sites, this helped me immensely in speeding up load times.</span>
+                        <br>
+                        <span id="spandownload" class="spandownload">Download the file by clicking here:</span>
+                        <a href="#" target="_blank" alt="Image Converter"><img class="downloadfile" alt="Image Converter" src="assets/images/pythonfile.png"/></a>
+                      </div>
+                      <div id="item1right" class="item1right">
+                        <span class="spanrightBI">Python</span>
+                        <a href="assets/images/imageconverter.webp" data-lightbox="indexsidebar"><img loading=“lazy”  src="assets/images/imageconverter.webp"  class="snap" alt="Python" /></a>
+                      </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="item">
+                      <div class="item1left">
+                        <span class="spanleft">Realtor.com Realtor Webscraper</span>
+                        <br>
+                        <span class="spanleftBody">A friend of mine is a drone pilot and he wanted to reach out to all the local realtors and offer his services to take pictures of their property. I built this webscraper for him so he can mass message them instantly!<br>
+                        This works by changing the base url to the wanted city and it then grabs every realtor's name and phone number on that page to the 50th page and exports both columns into a CSV file.</span>
+                        <br>
+                        <span id="spandownload" class="spandownload">Download the files by clicking them here:</span>
+                        <a href="#" target="_blank" alt="Webscraper"><img class="downloadfile" alt="Webscraper" src="assets/images/pythonfile.png"/></a>
+                      </div>
+                      <div id="item1right" class="item1right">
+                        <span class="spanrightExcel">Excel</span>
+                        <span class="spanrightBI">Python</span>
+                        <a href="assets/images/realtorfile.webp" data-lightbox="indexsidebar"><img loading=“lazy”  src="assets/images/realtorfile.webp"  class="snap" alt="Python" /></a>
+                      </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="item">
+                      <div class="item1left">
+                        <span class="spanleft">E-Commerce Dashboard</span>
+                        <br>
+                        <span class="spanleftBody">Dashboard detailing the sales performance of an Amazon-based e-Commerce. Data was downloaded via Seller Central, imported to a running report in Excel via Power Query, and finally brought in for Data Visualization in PowerBI.</span>
+                        <br>
+                        <span id="spandownload" class="spandownload">Download the files by clicking them here:</span>
+                        <a href="https://drive.google.com/file/d/1CTXBHJBpXhCssxGsiJLbMnAY8mo3B99-/view?usp=share_link" target="_blank"><img class="downloadfile" src="assets/images/powerbifile.webp"/></a>
+                        <a href="https://drive.google.com/file/d/1QyOtbFmX-ScG4bi_R8OzmFz31qShmf2x/view?usp=share_link" target="_blank"><img class="downloadfile" src="assets/images/excelfile.webp"/></a>
+                      </div>
+                      <div id="item1right" class="item1right">
+                        <span class="spanrightExcel">Excel</span>
+                        <span class="spanrightBI">Power BI</span>
+                        <a href="assets/PowerBI.PNG" data-lightbox="indexsidebar"><img loading=“lazy”  src="assets/PowerBI.PNG"  id="snap" alt="PowerBI" /></a>
+                      </div>
+                    </div>
+
+
+
                 </div>
               </div>
             </div>
@@ -262,7 +329,7 @@
                 data-aos-once="true"
                 class="section-title text-center">
 
-                <h2 class="title">Past Works</h2>
+                <h3 class="title">Sites I've Built</h3>
               </div>
             </div>
           </div>
@@ -385,7 +452,7 @@
                 class="section-title text-center"
               >
                 <span class="subtitle"></span>
-                <h2 class="title">My Resume</h2>
+                <h3 class="title">My Resume</h3>
               </div>
             </div>
           </div>
@@ -686,5 +753,6 @@
     <script src="assets/js/vendor/particles.js"></script>
     <!-- main JS -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/lightbox.js"  defer></script>
   </body>
 </html>
