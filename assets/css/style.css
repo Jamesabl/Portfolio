@@ -20288,6 +20288,9 @@ body.white-version {
   float: right;
 }
 
+.item{
+  padding-bottom: 20px;
+}
 
 .item1left{
   float:left !important;
@@ -20330,6 +20333,7 @@ body.white-version {
   .item{
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
   }
   .item1left{
     width: 100%;
@@ -20375,4 +20379,5 @@ h3{
 
 hr{
     border-top:1px  solid #d8dadd;
+    padding-top: 20px;
 }
