@@ -4,13 +4,13 @@ import csv
 
 
 
-
+#create a csv file named output.csv and save it in the same folder as this file
 with open('output.csv', 'a', newline='', encoding='utf-8') as csvfile:
     fieldnames = ['Name', 'Phone']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()
-
-    base_url = "https://www.realtor.com/realestateagents/boynton-beach_fl/sort-sold/pg-"
+    #change city name and state abbreviation to desired cities/states. must be formatted with - instead of spaces and the state must be 2 letters, i.e. FL, NY, TX
+    base_url = "https://www.realtor.com/realestateagents/your-city-name_stateabbreviation/sort-sold/pg-"
     num = 50
     page_num = str(num)
     url = base_url + page_num

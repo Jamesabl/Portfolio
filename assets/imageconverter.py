@@ -2,7 +2,7 @@ from pathlib import Path
 from PIL import Image
 
 
-def convert_to_webp(source):
+def convert_type(source):
 
     destination = source.with_suffix(".webp")
     image = Image.open(source)  # Open image
@@ -12,17 +12,17 @@ def convert_to_webp(source):
 
 
 def main():
-    paths = Path(r'C:\Users\nadul\Desktop\image change').glob("**/*.jpg")
+    paths = Path(r'filepath\folderOfImages').glob("**/*.jpg")
     for path in paths:
-        webp_path = convert_to_webp(path)
-        print(webp_path)
-    paths = Path(r'C:\Users\nadul\Desktop\image change').glob("**/*.jpeg")
+        type_path = convert_type(path)
+        print(type_path)
+    paths = Path(r'filepath\folderOfImages').glob("**/*.jpeg")
     for path in paths:
-        webp_path = convert_to_webp(path)
-        print(webp_path)
-    paths = Path(r'C:\Users\nadul\Desktop\image change').glob("**/*.png")
+        type_path = convert_type(path)
+        print(type_path)
+    paths = Path(r'filepath\folderOfImages').glob("**/*.png")
     for path in paths:
-        webp_path = convert_to_webp(path)
-        print(webp_path)
+        type_path = convert_type(path)
+        print(type_path)
 
 main()
