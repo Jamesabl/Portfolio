@@ -11977,7 +11977,7 @@ figcaption {
 }
 
 .slide {
-  padding-bottom: 100px;
+  padding-bottom: 30px;
   position: relative;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -12372,12 +12372,12 @@ figcaption {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slide.slider-style-3 {
-    padding-bottom: 60px;
+    padding-bottom: 10px;
   }
 }
 @media only screen and (max-width: 767px) {
   .slide.slider-style-3 {
-    padding-bottom: 60px;
+    padding-bottom: 10px;
   }
 }
 .slide.slider-style-3 .slider-wrapper {
@@ -12388,7 +12388,7 @@ figcaption {
 @media only screen and (max-width: 1199px) {
   .slide.slider-style-3 .slider-wrapper {
     padding-top: 126px;
-    padding-bottom: 45px;
+    padding-bottom: 10px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -12400,7 +12400,7 @@ figcaption {
 @media only screen and (max-width: 479px) {
   .slide.slider-style-3 .slider-wrapper {
     padding-top: 126px;
-    padding-bottom: 16px;
+    padding-bottom: 10px;
   }
 }
 .slide.slider-style-3 .slider-wrapper .slider-info {
@@ -12419,7 +12419,7 @@ figcaption {
 @media only screen and (max-width: 479px) {
   .slide.slider-style-3 .slider-wrapper .slider-info .user-info-top {
     padding: 25px;
-    padding-top: 41px;
+    padding-top: 10px;
   }
 }
 .slide.slider-style-3
@@ -20380,4 +20380,25 @@ h3{
 hr{
     border-top:1px  solid #d8dadd;
     padding-top: 20px;
+}
+
+.main-page-wrapper h4{
+  color: #3c3e41;
+}
+
+#portfolio,#resume h4{
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+.mt--25{
+  padding-top:0 !important;
+  margin:0 !important;
+}
+.mt--45{
+  padding-top:0 !important;
+  margin:0 !important;
+}
+
+.personal-experience-inner h5{
+  font-size: large;
 }
