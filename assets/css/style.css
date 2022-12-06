@@ -20316,6 +20316,7 @@ body.white-version {
     font-size: small;
   }
   .spanleft{
+    font-size: medium !important;
     font-weight: 600;
   }
   .spanleftBody{
@@ -20362,3 +20363,6 @@ h3{
   color: #3c3e41;
 }
 
+hr{
+    border-top:1px  solid #d8dadd;
+}
