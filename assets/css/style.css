@@ -20262,6 +20262,8 @@ body.white-version {
 }
 .spanleft{
   font-weight: 600;
+  float:left;
+  padding-right: 100px;
 }
 .spanleftBody{
   font-weight: 300;
@@ -20293,7 +20295,7 @@ body.white-version {
 }
 .item1right{
   float:right !important;
-  width: 40%
+  width: 40%;
 }
 
 .spandownload{
@@ -20318,16 +20320,23 @@ body.white-version {
   .spanleft{
     font-size: medium !important;
     font-weight: 600;
+    padding-right: 0;
   }
   .spanleftBody{
     font-weight: 300;
     font-size: x-small !important;
   }
+  .item{
+    display: flex;
+    flex-direction: column;
+  }
   .item1left{
     width: 100%;
+    order: 2;
   }
   .item1right{
     width: 100%;
+    order: 1 ;
   }
   .spanrightBI{
     color: #f2c80f !important;
